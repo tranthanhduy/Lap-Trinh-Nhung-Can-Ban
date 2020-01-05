@@ -1,0 +1,23 @@
+.\objects\gpio.o: ..\..\..\Do An\NUC131Series_BSP_CMSIS_v3.00.004\Library\StdDriver\src\gpio.c
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\Include\NUC131.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\Include\system_NUC131.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\SYS.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\ADC.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\Include\NUC131.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\CAN.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\FMC.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\GPIO.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\I2C.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\PWM.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\BPWM.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\SPI.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\TIMER.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\WDT.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\WWDT.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\UART.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc\CLK.h

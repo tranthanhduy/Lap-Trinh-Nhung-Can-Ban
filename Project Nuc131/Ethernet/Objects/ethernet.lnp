@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\clk.o"
+".\objects\spi.o"
+".\objects\sys.o"
+".\objects\gpio.o"
+".\objects\uart.o"
+".\objects\socket.o"
+".\objects\wizchip_conf.o"
+".\objects\w5500.o"
+".\objects\loopback.o"
+".\objects\retarget.o"
+".\objects\startup_nuc131.o"
+".\objects\system_nuc131.o"
+--strict --scatter ".\Objects\ethernet.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ethernet.map" -o .\Objects\ethernet.axf

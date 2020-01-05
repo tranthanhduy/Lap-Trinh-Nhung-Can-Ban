@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\gpio.o"
+".\objects\clk.o"
+".\objects\sys.o"
+".\objects\timers.o"
+".\objects\tasks.o"
+".\objects\queue.o"
+".\objects\list.o"
+".\objects\event_groups.o"
+".\objects\croutine.o"
+".\objects\heap_1.o"
+".\objects\port.o"
+".\objects\retarget.o"
+".\objects\startup_nuc131.o"
+".\objects\system_nuc131.o"
+--strict --scatter ".\Objects\test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\test.map" -o .\Objects\test.axf

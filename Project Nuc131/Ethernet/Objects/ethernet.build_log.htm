@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hai Luong, UIT, LIC=YA330-BYB3F-11RPY-ILH2W-SD4AE-YMKHX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      NULink\Nu_Link.dll V2.00
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+D:\Hoc Tap\DH N4\HK7\Lap Trinh Nhung Can Ban\Thuc Hanh\Nuc131\3 ethernet\ethernet.uvprojx
+Project File Date:  12/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling socket.c...
+compiling wizchip_conf.c...
+compiling sys.c...
+compiling gpio.c...
+compiling uart.c...
+compiling main.c...
+main.c(25): warning:  #1295-D: Deprecated declaration wizchip_read - give arg types
+  uint8_t wizchip_read();
+main.c(37): warning:  #177-D: variable "u32DataCount" was declared but never referenced
+  	uint32_t u32DataCount;
+main.c(42): warning:  #177-D: variable "retVal" was declared but never referenced
+  	uint8_t retVal, sockStatus;
+main.c(42): warning:  #177-D: variable "sockStatus" was declared but never referenced
+  	uint8_t retVal, sockStatus;
+main.c(43): warning:  #177-D: variable "rcvLen" was declared but never referenced
+    int16_t rcvLen;
+main.c(44): warning:  #177-D: variable "rcvBuf" was declared but never referenced
+    uint8_t rcvBuf[20], bufSize[] = {2, 2, 2, 2};
+main.c: 6 warnings, 0 errors
+compiling spi.c...
+compiling w5500.c...
+compiling clk.c...
+assembling startup_NUC131.s...
+compiling loopback.c...
+compiling retarget.c...
+compiling system_NUC131.c...
+linking...
+.\Objects\ethernet.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=10528 RO-data=420 RW-data=120 ZI-data=3360  
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\ethernet.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM::CMSIS:CORE:5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Nuvoton
+                http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.5.pack
+                Nuvoton::Device:Startup:0.00.001
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+   * Component: Startup Version: 0.00.001
+
+<h2>Collection of Component include folders:</h2>
+  D:\Hoc Tap\DH N4\HK7\Lap Trinh Nhung Can Ban\Thuc Hanh\Nuc131\3 ethernet\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\Include
+  C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.5\Device\NUC131\StdDriver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Nuvoton::Device:Startup:0.00.001
+      Include file:  Device\NUC131\Include\NUC131.h
+      Source file:   Device\NUC131\Source\ARM\startup_NUC131.s
+      Source file:   Device\NUC131\Source\system_NUC131.c
+      Source file:   Device\NUC131\StdDriver\src\retarget.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
